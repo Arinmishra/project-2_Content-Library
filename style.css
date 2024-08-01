@@ -1,0 +1,368 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid #884A39;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 10px 20px 30px 40px;
+    color: #6B240C;
+    background-image: url("images/OIP.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 5px 5px #6B240C;
+}
+
+h1:hover {
+    background-image: url("images/R.gif");
+    cursor: default;
+}
+
+ul {
+    margin: 50px;
+    display: flex;
+    list-style: none;
+    background-color: #F5CCA0;
+    border-radius: 10px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px 5px #884A39;
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+.aNav {
+    text-decoration: none;
+    color: #6B240C;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px; 
+    transition: 0.3s;
+}
+
+.aNav:hover {
+    background-color: #6B240C;
+    color: #EADBC8;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px 3px #884A39;
+}
+
+.aNav:active {
+    background-color: #E0A75E;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 50px 45px 50px;
+    padding: 50px;
+    background-color: #F0EBE3;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.container1:hover {
+    background-color: #EADBC8;
+    border: 2px solid #6B240C;
+    box-shadow: 5px 5px 5px 5px #6B240C;
+}
+
+.sideimg, .aboutimg {
+    float: right;
+    width: 350px;
+    height: 250px;
+    border-radius: 700px 100px 400px 100px;
+}
+
+.ptext {
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.pspantext {
+    font-weight: 900;
+    color: #6B240C;
+    font-size: xx-large;
+}
+
+.explore, .login {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F5CCA0;
+    color: #6B240C;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.explore:hover, .login:hover {
+    background-color: #6B240C;
+    color: #EADBC8;
+    border-radius: 8px;
+}
+
+.explore:active, .login:active {
+    background-color: #E0A75E;
+}
+
+footer {
+    padding: 15px;
+    background-color: #884A39;
+    color: #F9E0BB;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: large;
+    color: #6B240C;
+}
+
+fieldset {
+    background-image: url("images/bgform.gif");
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formEl {
+    padding-bottom: 40px;
+}
+
+input {
+    font-size: large;
+    padding: 10px;
+}
+
+h2 {
+    color: #E7F0DC;
+    background-color: #597445;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h2:hover {
+    box-shadow: 5px 5px 5px 5px #884A39;
+    text-shadow: 2px 2px #884A39;
+}
+
+.nirf {
+    color: #E7F0DC;
+    text-decoration: none;
+    border: 2px solid #E7F0DC;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.colcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid #6B240C;
+    border-radius: 20px;
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px 2px #597445;
+}
+
+.colcontainer:hover {
+    background-color: #E7F0DC;
+    border: 5px solid #6B240C;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #884A39;
+}
+
+.college {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.coltext {
+    padding-top: 20px;
+    font-weight: 500;
+    color: #597445;
+    white-space: pre-wrap;
+}
+
+.headlearn {
+    text-align: center;
+    color: #6B240C;
+    font-weight: 900;
+    font-size: xx-large;
+    border-bottom: 5px solid #6B240C;
+    padding: 50px;
+    width: 100%;
+}
+
+.alecture {
+    text-decoration: none;
+    color: #6B240C;
+    font-weight: 500;
+    border: 2px solid #6B240C;
+    background-color: #F0EBE3;
+    border-radius: 100px;
+    padding: 20px 50px;
+}
+
+.alecture:hover {
+    background-color: #E7F0DC;
+    box-shadow: 2px 2px 2px 2px #6B240C;
+    transition: 0.3s;
+}
+
+.learning, .notes {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.learning:hover, .notes:hover {
+    background-color: #E7F0DC;
+    box-shadow: 2px 2px 2px 2px #6B240C;
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .aNav {
+        padding: 1px;
+        margin: 1px 0; 
+        width: 100%;
+        text-align: center;
+    }
+
+    .aNav:hover, .aNav:active {
+        margin: 1px 0;
+    }
+
+    .sideimg, .aboutimg {
+        float: none;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container1 {
+        margin: 50px 20px;
+        padding: 20px;
+    }
+
+    .colcontainer {
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    h1 {
+        padding: 20px;
+        font-size: 1.5em;
+    }
+
+    .explore, .login {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .headlearn {
+        padding: 20px;
+        font-size: 1.5em;
+    }
+
+    .learning, .notes {
+        margin: 30px 20px;
+    }
+
+    .nirf {
+        border: 1px solid #E7F0DC; 
+        padding: 5px;
+        font-size: 0.9em; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    ul {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .aNav {
+        padding: 1px;
+        margin: 1px 0; 
+    }
+
+    .aNav:hover, .aNav:active {
+        margin: 1px 0; 
+    }
+
+    .container1 {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+
+    .colcontainer {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .explore, .login {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .headlearn {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    .learning, .notes {
+        margin: 20px 10px;
+    }
+
+    .nirf {
+        border: 1px solid #E7F0DC;
+        padding: 5px; 
+        font-size: 0.8em;
+    }
+}

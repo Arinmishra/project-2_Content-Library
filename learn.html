@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Choose Your Way</title>
+    <style>
+        #learn {
+            background-color: #6B240C;
+            color: #EADBC8;
+            border-radius: 100px;
+            box-shadow: 3px 3px 3px 3px #884A39;
+        }
+
+        .video-container {
+            display: none;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .video-container iframe {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .video-container iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose Your Path</h1>
+    <div class="nav">
+        <ul>
+            <li><a class="aNav" id="home" href="index.html">HOME</a></li>
+            <li><a class="aNav" id="about" href="about.html">About Us</a></li>
+            <li><a class="aNav" id="uni" href="uni.html">Universities</a></li>
+            <li><a class="aNav" id="learn" href="learn.html">Learning</a></li>
+            <li><a class="aNav" id="login" href="login.html">Log In</a></li>
+            <li><a class="aNav" id="register" href="register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class="container1">
+        <p class="headlearn">Web Development Fundamentals</p>
+        <div class="learning">
+            <p><a class="alecture" href="#" data-video-id="HcOc7P5BMi4" onclick="playVideo(event)">Learn HTML</a></p>
+        </div>
+        <div class="notes">
+            <p><a class="alecture" href="documents/HTML Notes.pdf" target="_blank">HTML Notes</a></p>
+        </div>
+
+        <div class="learning">
+            <p><a class="alecture" href="#" data-video-id="ESnrn1kAD4E" onclick="playVideo(event)">Learn CSS</a></p>
+        </div>
+        <div class="notes">
+            <p><a class="alecture" href="documents/CSS Notes.pdf" target="_blank">CSS Notes</a></p>
+        </div>
+    </div>
+
+    <div class="container1">
+        <p class="headlearn">SQL</p>
+        <div class="learning">
+            <p><a class="alecture" href="#" data-video-id="hlGoQC332VM" onclick="playVideo(event)">Learn SQL</a></p>
+        </div>
+        <div class="notes">
+            <p><a class="alecture" href="documents/SQL notes.pdf" target="_blank">SQL Notes</a></p>
+        </div>
+    </div>
+
+  
+    <div id="video-container" class="video-container">
+        <iframe id="video-frame" src="" allowfullscreen></iframe>
+    </div>
+    
+
+    <footer>Made with Love by Arin Mishra</footer>
+    <script src="script.js"></script>
+</body>
+</html>
